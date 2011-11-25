@@ -47,7 +47,18 @@
   display: block;
   font-size: 14px;
 }
-
+.table-left {
+  float: left;
+  display: block;
+}
+.table-right { 
+  float: right;
+  display: block;
+}
+td {
+  text-align: center;
+  border: 1px solid black !important;
+}
 @media print {
   .theme-menu {
     display: none !important;
