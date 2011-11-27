@@ -101,15 +101,39 @@
 <section class="slide" id="Protocolo-TCP/IP">
     <h2>Protocolo TCP/IP</h2>
     <br/>
-    <p>Na verdade são dois protocolos que funcionam em conjunto, o protocolo TCP (Transmission Control Protocol) funciona na camada de Transporte especificanado como a transmissão dos pacotes serão dadas. O outro protocolo é o IP (Internet Protocol), funciona na camada de Rede e serve para identificação das máquinas no momento da comunicação.</p>
-    
+    <ul>
+      <li class="slide">Na realidade é um conjunto de protocolos sendo os dois principais o TCP e o IP</li>
+      <li class="slide">O protocolo TCP (Transmission Control Protocol) funciona na camada de Transporte e especifica como a transmissão dos dados irá ocorrer</li>
+      <li class="slide">O protocolo IP (Internet Protocol) funcinoa na camada de Rede identificando as máquinas no momento da comunicação</li>
+      <li class="slide">Ambos os protocolos tem como objetivo unificar como a comunicação é dada utilizando equipamentos heterogêneos</li>
+</section>
+
+<section class="slide" id="Header-TCP/IP">
+	<h2>Cabeçalho de comunicação</h2>
+	<br/>
+	<p>Quando um pacote é transmitido além dos dados são enviados os cabeçalhos de cada protocolo utilizado em cada camada</p>
+	<img src="../images/conj_cab.gif">
+	<br/>
+	<img class="table-left" src="../images/cab_ip.gif">
+	<img class="table-right" src="../images/cab_tcp.gif">
+</section>
+
+<section class="slide" id="MPLS">
+	<h2>Protocolo MPLS (Multi Protocol Label Switching)</h2>
+	<br/>
+	<ul>
+	  <li class="slide">Outro protocolo que "substitui" o protocolo TCP.</li>
+	  <li class="slide">Funciona numa camada intermediária entre a camada de Enlace e a camada de Rede</li>
+	  <img class="slide" src="../images/Camadas_MPLS.jpg">
+	  <li class="slide">Encaminhamento baseado em rótulos (labels)</li>
+	  <li class="slide">Através das labels permite a criação de VPNs e priorização de tráfego</li>
 </section>
 
 <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
 <a href="#" class="deck-next-link" title="Next">&#8594;</a>
 
 <p class="deck-status">
-	<span class="deck-status-total"></span>
+	<span class="deck-status-current"></span>
 </p>
 
 <form action="." method="get" class="goto-form">
